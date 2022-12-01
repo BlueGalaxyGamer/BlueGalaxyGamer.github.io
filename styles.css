@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Roboto:ital,wght@1,300&display=swap');
+/* 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+*/
+
+.indentedBox {
+    border: 5px solid gray;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.indentedBox p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+}
+
+.loi {
+    text-align: center;
+}
+
+.loi a:link {
+    color:aquamarine;
+    text-decoration: none;
+}
+
+.loi a:hover {
+    color:blue;
+    font-weight: bold;
+}
+
+/* The Basic Stuff */
+* {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+hr {
+    position: relative;
+    top: 1px;
+    border: none;
+    height: 3px;
+    background: gray;
+    margin-bottom: 50px;
+}
+
+/* cadets */
+.cadets {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.cadets ul {
+    list-style: none;
+}
+
+.cadets li {
+    display: block;
+    padding: 0px 15px;
+    float:left;
+    margin: 0 3px;
+
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+
+.cadets a:link {
+    color:aquamarine;
+    text-decoration: none;
+}
+
+.cadets a:visited {
+    color:aquamarine;
+    text-decoration: none;
+}
+
+.cadets a:hover {
+    color:blue;
+    font-weight: bold;
+}
+
+.box{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+
+.box img{
+	width: 90px;
+}
+
+.avatar {
+	display: inline-block;
+	border-radius: 40%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+/* spaced */
+.spaced {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.about {
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.spaced h2 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.spaced p {
+    font-family: 'Roboto-ThinItalic', sans-serif;
+}
+
+/* Header */
+.header {
+    text-align: center;
+}
+
+.pageTitle {
+    text-align: center;
+    font-family: 'Roboto-ThinItalic', sans-serif;
+    font-size: 60px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    display: block;
+    padding: 0px 15px;
+    float:left;
+    margin: 0 3px;
+
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+
+.navbar a:link {
+    color:aquamarine;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color:blue;
+    font-weight: bold;
+}
